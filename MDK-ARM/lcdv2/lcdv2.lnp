@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"lcdv2\startup_stm32f103xb.o"
+"lcdv2\lcd.o"
+"lcdv2\main.o"
+"lcdv2\stm32f1xx_it.o"
+"lcdv2\stm32f1xx_hal_msp.o"
+"lcdv2\tim.o"
+"lcdv2\stm32f1xx_hal_gpio_ex.o"
+"lcdv2\stm32f1xx_hal_tim.o"
+"lcdv2\stm32f1xx_hal_tim_ex.o"
+"lcdv2\stm32f1xx_hal.o"
+"lcdv2\stm32f1xx_hal_rcc.o"
+"lcdv2\stm32f1xx_hal_rcc_ex.o"
+"lcdv2\stm32f1xx_hal_gpio.o"
+"lcdv2\stm32f1xx_hal_dma.o"
+"lcdv2\stm32f1xx_hal_cortex.o"
+"lcdv2\stm32f1xx_hal_pwr.o"
+"lcdv2\stm32f1xx_hal_flash.o"
+"lcdv2\stm32f1xx_hal_flash_ex.o"
+"lcdv2\stm32f1xx_hal_exti.o"
+"lcdv2\system_stm32f1xx.o"
+--strict --scatter "lcdv2\lcdv2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "lcdv2.map" -o lcdv2\lcdv2.axf
