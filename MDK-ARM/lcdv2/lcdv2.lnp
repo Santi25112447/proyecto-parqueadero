@@ -1,10 +1,10 @@
 --cpu Cortex-M3
 "lcdv2\startup_stm32f103xb.o"
 "lcdv2\lcd.o"
+"lcdv2\tim.o"
 "lcdv2\main.o"
 "lcdv2\stm32f1xx_it.o"
 "lcdv2\stm32f1xx_hal_msp.o"
-"lcdv2\tim.o"
 "lcdv2\stm32f1xx_hal_gpio_ex.o"
 "lcdv2\stm32f1xx_hal_tim.o"
 "lcdv2\stm32f1xx_hal_tim_ex.o"
